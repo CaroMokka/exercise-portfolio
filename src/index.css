@@ -67,18 +67,32 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
-.carousel.slide{
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+/* .carousel.slide{
   background-color: #747bff;
   padding: 20px;
   border: solid 2px #fff;
-}
-.carousel-item{
+} */
+/* .carousel-item{
   border: solid 2px #fff;
+} */
+.container-cards{
+  display: flex;
+  justify-content: center;
 }
 .card{
-  margin: 20px 0;
+  text-align: center;
+  margin: 20px;
   border-radius: 0;
   border: solid 2px #000;
+
+}
+.card-img-top{
+  border: 0;
 }
 .container-top{
   width: auto;

@@ -1,14 +1,19 @@
+import logo from "../assets/logo.png";
+
 function Navbar() {
   return (
     <>
-      <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            Navbar
-          </a>
+      <nav className="navbar bg-body-tertiary p-0">
+        <div className="container-fluid bg-black">
+          <div className="text-white">
+            <img className="mb-3 mt-3" src={logo} />
+            <span>FASHION </span>
+            <span>CULTURE </span>
+            <span>PORTRAIT </span>
+          </div>
         </div>
       </nav>
     </>
   );
 }
-export default Navbar
+export default Navbar;
