@@ -3,15 +3,15 @@ function Card(props) {
     <>
       <div className="card" style={{ width: 16 + "rem" }}>
         <img
-          src="https://data2.nssmag.com/images/galleries/34772/cover-tokyo-orizz.jpg"
+          src={props.img}
           className="card-img-top"
           alt="tokio"
         />
         <div className="card-body d-flex flex-column align-items-around">
-          <h5 className="card-title">{props.title}</h5>
+          <h3 className="card-title">{props.title}</h3>
           <p className="card-text">{props.text}</p>
           <a href="#" className="btn btn-dark">
-            Show More...
+            Show more...
           </a>
         </div>
       </div>
