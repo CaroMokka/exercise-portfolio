@@ -1,11 +1,12 @@
-function BlockFooter(){
+function BlockFooter(props){
     return (
         <>
-        <div>
-            <h3>Titulo</h3>
-            <p>lista</p>
-            <p>lista</p>
-            <p>lista</p>
+        <div className="block-footer">
+            <h3>{props.title}</h3>
+            <p>{props.sectionOne}</p>
+            <p>{props.sectionTwo}</p>
+            <p>{props.sectionThree}</p>
+            <p>{props.sectionFour}</p>
         </div>
         </>
     )
