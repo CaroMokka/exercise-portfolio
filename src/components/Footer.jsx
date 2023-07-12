@@ -1,5 +1,5 @@
 import BlockFooter from '../components/BlockFooter'
-function Footer (props){
+function Footer (){
     return (
         <>
             <div className='container-top'>
@@ -12,7 +12,7 @@ function Footer (props){
                 <BlockFooter title="NETWORK" sectionOne="NSS MAGAZINE" sectionTwo="NSS SPORTS" sectionThree="NSS GALLERIA" />
                 <BlockFooter title="NEWSLETTER" sectionOne="ISCRIVITI ALLA NOSTRA" sectionTwo="NEWSLETTER"/>
             </div>
-            <div className="bg-black">
+            <div className="copyright bg-black">
                 <p className="text-white text-center p-3">Copyright ©2023 nss magazine srls - All rights reserved - Built with Brownie</p>
             </div>
         </>

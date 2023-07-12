@@ -4,7 +4,9 @@ function Main() {
   return (
     <>
       <section className="main">
-        <img className="main-title" src={title} />
+        <div className="main-title">
+        <img  src={title} />
+        </div>
         <div className="container-cards d-flex">
           <Card
             title="TOKIO"
